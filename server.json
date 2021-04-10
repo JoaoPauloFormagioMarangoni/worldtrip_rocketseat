@@ -4,20 +4,20 @@
         "id": 1,
         "continent": "Europa",
         "shortDescription": "O continente mais antigo.",
-        "image": "images/carousel/europa.jpg"
+        "image": "/images/carousel/europa.jpg"
       },
       {
         "id": 2,
         "continent": "América do Norte",
         "shortDescription": "Subcontinente da América",
-        "image": "images/carousel/northAmerica.jpg"
+        "image": "/images/carousel/northAmerica.jpg"
       }
     ],
     "continent": [
       {
         "id": 1,
         "continent": "Europa",
-        "image": "images/carousel/europa.jpg",
+        "image": "/images/carousel/europa.jpg",
         "informations": {
             "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
             "countries": 50,
@@ -26,34 +26,34 @@
         },
         "cities": [
           {
-            "image": "images/cities/london.svg",
+            "image": "/images/cities/europa/london.svg",
             "name": "Londres",
             "country": "Reino Unido",
-            "flag": "images/cities/flag/UnitedKingdom.svg"
+            "flag": "/images/cities/europa/flag/UnitedKingdom.svg"
           },
           {
-            "image": "images/cities/paris.svg",
+            "image": "/images/cities/europa/paris.svg",
             "name": "Paris",
             "country": "França",
-            "flag": "images/cities/flag/Franca.svg"
+            "flag": "/images/cities/europa/flag/Franca.svg"
           },
           {
-            "image": "images/cities/roma.svg",
+            "image": "/images/cities/europa/roma.svg",
             "name": "Roma",
             "country": "Itália",
-            "flag": "images/cities/flag/Italia.svg"
+            "flag": "/images/cities/europa/flag/Italia.svg"
           },
           {
-            "image": "images/cities/praga.svg",
+            "image": "/images/cities/europa/praga.svg",
             "name": "Praga",
             "country": "República Tcheca",
-            "flag": "images/cities/flag/RepublicaTcheca.svg"
+            "flag": "/images/cities/europa/flag/RepublicaTcheca.svg"
           },
           {
-            "image": "images/cities/amsterda.svg",
+            "image": "/images/cities/europa/amsterda.svg",
             "name": "Amsterdã",
             "country": "Holanda",
-            "flag": "images/cities/flag/Holanda.svg"
+            "flag": "/images/cities/europa/flag/Holanda.svg"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "id": 2,
         "continent": "América do Norte",
         "shortDescription": "Um subcontinente da América",
-        "image": "images/carousel/northAmerica.jpg",
+        "image": "/images/carousel/northAmerica.jpg",
         "informations": {
             "description": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite no Istmo do Panamá (umas vezes no Canal do Panamá, outras na fronteira entre o Panamá e a Colômbia). Pela última definição, a América do Norte incluiria a América Central Continental e Insular (Caribe).",
             "countries": 3,
@@ -70,186 +70,10 @@
         },
         "cities": [
           {
-            "image": "images/cities/cancun.jpg",
+            "image": "/images/cities/northAmerica/cancun.jpg",
             "name": "Cancun",
             "country": "México",
-            "flag": "images/cities/flag/mexico.png"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "continent": "América do Sul",
-        "shortDescription": "O cntinente mais antigo.",
-        "image": "images/carousel/europa.jpg",
-        "informations": {
-            "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-            "countries": 50,
-            "tongues": 60,
-            "citiesTop": 27
-        },
-        "cities": [
-          {
-            "image": "images/cities/london.svg",
-            "name": "Londres",
-            "country": "Reino Unido",
-            "flag": "images/cities/flag/UnitedKingdom.svg"
-          },
-          {
-            "image": "images/cities/paris.svg",
-            "name": "Paris",
-            "country": "França",
-            "flag": "images/cities/flag/Franca.svg"
-          },
-          {
-            "image": "images/cities/roma.svg",
-            "name": "Roma",
-            "country": "Itália",
-            "flag": "images/cities/flag/Italia.svg"
-          },
-          {
-            "image": "images/cities/praga.svg",
-            "name": "Praga",
-            "country": "República Tcheca",
-            "flag": "images/cities/flag/RepublicaTcheca.svg"
-          },
-          {
-            "image": "images/cities/amsterda.svg",
-            "name": "Amsterdã",
-            "country": "Holanda",
-            "flag": "images/cities/flag/Holanda.svg"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "continent": "Ásia",
-        "shortDescription": "O cntinente mais antigo.",
-        "image": "images/carousel/europa.jpg",
-        "informations": {
-            "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-            "countries": 50,
-            "tongues": 60,
-            "citiesTop": 27
-        },
-        "cities": [
-          {
-            "image": "images/cities/london.svg",
-            "name": "Londres",
-            "country": "Reino Unido",
-            "flag": "images/cities/flag/UnitedKingdom.svg"
-          },
-          {
-            "image": "images/cities/paris.svg",
-            "name": "Paris",
-            "country": "França",
-            "flag": "images/cities/flag/Franca.svg"
-          },
-          {
-            "image": "images/cities/roma.svg",
-            "name": "Roma",
-            "country": "Itália",
-            "flag": "images/cities/flag/Italia.svg"
-          },
-          {
-            "image": "images/cities/praga.svg",
-            "name": "Praga",
-            "country": "República Tcheca",
-            "flag": "images/cities/flag/RepublicaTcheca.svg"
-          },
-          {
-            "image": "images/cities/amsterda.svg",
-            "name": "Amsterdã",
-            "country": "Holanda",
-            "flag": "images/cities/flag/Holanda.svg"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "continent": "África",
-        "shortDescription": "O cntinente mais antigo.",
-        "image": "images/carousel/europa.jpg",
-        "informations": {
-            "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-            "countries": 50,
-            "tongues": 60,
-            "citiesTop": 27
-        },
-        "cities": [
-          {
-            "image": "images/cities/london.svg",
-            "name": "Londres",
-            "country": "Reino Unido",
-            "flag": "images/cities/flag/UnitedKingdom.svg"
-          },
-          {
-            "image": "images/cities/paris.svg",
-            "name": "Paris",
-            "country": "França",
-            "flag": "images/cities/flag/Franca.svg"
-          },
-          {
-            "image": "images/cities/roma.svg",
-            "name": "Roma",
-            "country": "Itália",
-            "flag": "images/cities/flag/Italia.svg"
-          },
-          {
-            "image": "images/cities/praga.svg",
-            "name": "Praga",
-            "country": "República Tcheca",
-            "flag": "images/cities/flag/RepublicaTcheca.svg"
-          },
-          {
-            "image": "images/cities/amsterda.svg",
-            "name": "Amsterdã",
-            "country": "Holanda",
-            "flag": "images/cities/flag/Holanda.svg"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "continent": "Oceania",
-        "shortDescription": "O cntinente mais antigo.",
-        "image": "images/carousel/europa.jpg",
-        "informations": {
-            "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-            "countries": 50,
-            "tongues": 60,
-            "citiesTop": 27
-        },
-        "cities": [
-          {
-            "image": "images/cities/london.svg",
-            "name": "Londres",
-            "country": "Reino Unido",
-            "flag": "images/cities/flag/UnitedKingdom.svg"
-          },
-          {
-            "image": "images/cities/paris.svg",
-            "name": "Paris",
-            "country": "França",
-            "flag": "images/cities/flag/Franca.svg"
-          },
-          {
-            "image": "images/cities/roma.svg",
-            "name": "Roma",
-            "country": "Itália",
-            "flag": "images/cities/flag/Italia.svg"
-          },
-          {
-            "image": "images/cities/praga.svg",
-            "name": "Praga",
-            "country": "República Tcheca",
-            "flag": "images/cities/flag/RepublicaTcheca.svg"
-          },
-          {
-            "image": "images/cities/amsterda.svg",
-            "name": "Amsterdã",
-            "country": "Holanda",
-            "flag": "images/cities/flag/Holanda.svg"
+            "flag": "/images/cities/northAmerica/flag/mexico.png"
           }
         ]
       }

@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <Flex direction="column" overflowX="hidden" align="center">
             <Header />
-            <Image src="images/Banner.svg" alt="Continentes" w="100%" />
+            <Image src="images/home/Banner.svg" alt="Continentes" w="100%" />
             <TravelTypes />
             <Divider w="90px" mb="52px"/>
             <Text fontWeight="500" fontSize="2.25rem" lineHeight="54px" color="green.800">Vamos nessa?</Text>

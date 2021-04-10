@@ -6,8 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import styles from '../styles/carousel.module.css';
 import { api } from '../services/api'
-import { useContext, useEffect, useState } from 'react'
-import { ContinentsChangeContext } from '../contexts/ContinentsChangeContext';
+import { useEffect, useState } from 'react'
 
 interface HomeProps {
   id: number;
@@ -21,7 +20,6 @@ SwiperCore.use([Navigation, Pagination, A11y]);
 
 export default function ContinentsSlide() {
   const [continents, setContinents] = useState<HomeProps[]>([]);
-  const { numberContinentNow } = useContext(ContinentsChangeContext)
 
   useEffect(() => {
     async function loadContinents() {
@@ -43,7 +41,7 @@ export default function ContinentsSlide() {
       {continents.map(continent => (
         <SwiperSlide className={styles.item} key={continent.id}>
             <Image objectFit="cover" h="450px" w="100%" src={continent.image} alt={continent.continent} />
-            <Link href={`/continent`} passHref>
+            <Link href={`/continent/${continent.id}`} passHref>
               <Flex
                   position="absolute"
                   w="100%"
@@ -56,7 +54,6 @@ export default function ContinentsSlide() {
                   top={0}
                   direction="column"
                   cursor="pointer"
-                  onClick={() => numberContinentNow(continent.id)}
               >
                   <Box fontWeight="700" fontSize={48}>{continent.continent}</Box>
                   <Box fontWeight="700" fontSize={24}>{continent.shortDescription}</Box>

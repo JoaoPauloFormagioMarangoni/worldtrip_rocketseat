@@ -4,11 +4,11 @@ import { useRouter } from 'next/router';
 import { IoIosArrowBack } from 'react-icons/io';
 
 export function Header() {
-    const { asPath } = useRouter()
+    const { pathname } = useRouter()
 
     return (
         <>
-            {asPath === "/continent" && (
+            {pathname === "/continent/[slug]" && (
                 <Link href="/" passHref>
                     <Icon
                       as={IoIosArrowBack}
@@ -29,7 +29,7 @@ export function Header() {
                 w="100vw"
                 position="relative"
             >
-                <Image src="/images/Logo.svg" alt="Worldtrip" w={["81px", "184.06px"]} />
+                <Image src="/images/home/Logo.svg" alt="Worldtrip" w={["81px", "184.06px"]} />
             </Flex>
         </>
     );

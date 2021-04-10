@@ -1,11 +1,17 @@
 import { Box, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
-import { useContext } from "react";
-import { ContinentsChangeContext } from "../contexts/ContinentsChangeContext";
 
-export function Cities() {
-    const { continentInformations } = useContext(ContinentsChangeContext);
-    const { cities } = continentInformations;
+interface ParamsProps {
+    image: string;
+    name: string;
+    country: string;
+    flag: string;
+}
 
+interface CitiesProps {
+    cities: ParamsProps[];
+}
+
+export function Cities({ cities }: CitiesProps) {
     return (
         <SimpleGrid
             minChildWidth="256px"

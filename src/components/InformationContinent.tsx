@@ -1,12 +1,18 @@
 import { Box, Flex, HStack, Icon, Text } from "@chakra-ui/react";
-import { useContext } from "react";
 import { AiOutlineExclamationCircle } from 'react-icons/ai';
-import { ContinentsChangeContext } from "../contexts/ContinentsChangeContext";
 
-export function InformationContinent() {
-    const { continentInformations } = useContext(ContinentsChangeContext);
-    const { informations } = continentInformations
+interface ParamsProps {
+  description: string;
+  countries: number;
+  tongues: number;
+  citiesTop: number;
+}
 
+interface InformationProps {
+  informations: ParamsProps;
+}
+
+export function InformationContinent({ informations }: InformationProps) {
     return (
         <Flex
           w="100%"

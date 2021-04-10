@@ -1,4 +1,4 @@
-import { Box, Flex, Image, SimpleGrid, Stack, Text } from "@chakra-ui/react";
+import { Box, Image, SimpleGrid, Text } from "@chakra-ui/react";
 
 export function TravelTypes() {
     return (
@@ -11,23 +11,23 @@ export function TravelTypes() {
           mb="80px"
         >
             <Box>
-                <Image mx="auto" src="/images/cocktail.svg" alt="Coquetel" />
+                <Image mx="auto" src="/images/home/travelTypes/cocktail.svg" alt="Coquetel" />
                 <Text textAlign="center" mt="24px">vida noturna</Text>
             </Box>
             <Box>
-                <Image mx="auto" src="/images/surf.svg" alt="Coquetel" />
+                <Image mx="auto" src="/images/home/travelTypes/surf.svg" alt="Coquetel" />
                 <Text textAlign="center" mt="24px">praia</Text>
             </Box>
             <Box>
-                <Image mx="auto" src="/images/building.svg" alt="Coquetel" />
+                <Image mx="auto" src="/images/home/travelTypes/building.svg" alt="Coquetel" />
                 <Text textAlign="center" mt="24px">moderno</Text>
             </Box>
             <Box>
-                <Image mx="auto" src="/images/museum.svg" alt="Coquetel" />
+                <Image mx="auto" src="/images/home/travelTypes/museum.svg" alt="Coquetel" />
                 <Text textAlign="center" mt="24px">clássico</Text>
             </Box>
             <Box>
-                <Image mx="auto" src="/images/earth.svg" alt="Coquetel" />
+                <Image mx="auto" src="/images/home/travelTypes/earth.svg" alt="Coquetel" />
                 <Text textAlign="center" mt="24px">e mais...</Text>
             </Box>
         </SimpleGrid>
